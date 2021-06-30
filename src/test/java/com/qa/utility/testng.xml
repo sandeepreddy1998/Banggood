@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Banggood">
+<listeners>
+<listener class-name="com.qa.utility.Reporting"></listener>
+</listeners>
+  <test thread-count="5" name="Functional Testing for Banggoodsite" parallel="classes">
+  <parameter name="Browser" value="Chrome"/>
+  <parameter name="Url" value="https://www.banggood.in/marketing-Father-Day-Sale/tid-9470.html?bid"/>
+    <classes>
+      <class name="com.qa.testscript.Tc_BanggoodFooterlinks"/>
+      <class name="com.qa.testscript.Tc_Banggood"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

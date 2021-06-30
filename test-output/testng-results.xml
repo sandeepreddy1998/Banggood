@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[Incorrect no of footer links]]>
+    </line>
+    <line>
+      <![CDATA[The item is searched]]>
+    </line>
+    <line>
+      <![CDATA[The item is searched]]>
+    </line>
+    <line>
+      <![CDATA[The item is searched]]>
+    </line>
+    <line>
+      <![CDATA[The item is searched]]>
+    </line>
+  </reporter-output>
+  <suite name="Banggood" duration-ms="70018" started-at="2021-06-23T12:51:54 IST" finished-at="2021-06-23T12:53:04 IST">
+    <groups>
+    </groups>
+    <test name="Functional Testing for Banggoodsite" duration-ms="70018" started-at="2021-06-23T12:51:54 IST" finished-at="2021-06-23T12:53:04 IST">
+      <class name="com.qa.testscript.Tc_Banggood">
+        <test-method status="PASS" signature="SetUp(java.lang.String,java.lang.String)[pri:0, instance:com.qa.testscript.Tc_Banggood@5ed828d]" name="SetUp" is-config="true" duration-ms="13520" started-at="2021-06-23T12:51:54 IST" finished-at="2021-06-23T12:52:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.banggood.in/marketing-Father-Day-Sale/tid-9470.html?bid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="SearchItem(java.lang.String)[pri:0, instance:com.qa.testscript.Tc_Banggood@5ed828d]" name="SearchItem" duration-ms="9390" started-at="2021-06-23T12:52:09 IST" data-provider="getData" finished-at="2021-06-23T12:52:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[screwdriver]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[The item is searched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SearchItem -->
+        <test-method status="PASS" signature="SearchItem(java.lang.String)[pri:0, instance:com.qa.testscript.Tc_Banggood@5ed828d]" name="SearchItem" duration-ms="21140" started-at="2021-06-23T12:52:18 IST" data-provider="getData" finished-at="2021-06-23T12:52:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cars]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[The item is searched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SearchItem -->
+        <test-method status="PASS" signature="SearchItem(java.lang.String)[pri:0, instance:com.qa.testscript.Tc_Banggood@5ed828d]" name="SearchItem" duration-ms="4485" started-at="2021-06-23T12:52:40 IST" data-provider="getData" finished-at="2021-06-23T12:52:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[laptops]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[The item is searched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SearchItem -->
+        <test-method status="PASS" signature="SearchItem(java.lang.String)[pri:0, instance:com.qa.testscript.Tc_Banggood@5ed828d]" name="SearchItem" duration-ms="19671" started-at="2021-06-23T12:52:44 IST" data-provider="getData" finished-at="2021-06-23T12:53:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wooden tables]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[The item is searched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SearchItem -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.testscript.Tc_Banggood@5ed828d]" name="TearDown" is-config="true" duration-ms="255" started-at="2021-06-23T12:53:04 IST" finished-at="2021-06-23T12:53:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.qa.testscript.Tc_Banggood -->
+      <class name="com.qa.testscript.Tc_BanggoodFooterlinks">
+        <test-method status="PASS" signature="SetUp(java.lang.String,java.lang.String)[pri:0, instance:com.qa.testscript.Tc_BanggoodFooterlinks@44c8afef]" name="SetUp" is-config="true" duration-ms="12709" started-at="2021-06-23T12:51:54 IST" finished-at="2021-06-23T12:52:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.banggood.in/marketing-Father-Day-Sale/tid-9470.html?bid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="FAIL" signature="FooterLink()[pri:0, instance:com.qa.testscript.Tc_BanggoodFooterlinks@44c8afef]" name="FooterLink" duration-ms="1643" started-at="2021-06-23T12:52:07 IST" finished-at="2021-06-23T12:52:09 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at com.qa.testscript.Tc_BanggoodFooterlinks.FooterLink(Tc_BanggoodFooterlinks.java:30)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Incorrect no of footer links]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FooterLink -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.testscript.Tc_BanggoodFooterlinks@44c8afef]" name="TearDown" is-config="true" duration-ms="4224" started-at="2021-06-23T12:52:09 IST" finished-at="2021-06-23T12:52:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.qa.testscript.Tc_BanggoodFooterlinks -->
+    </test> <!-- Functional Testing for Banggoodsite -->
+  </suite> <!-- Banggood -->
+</testng-results>
